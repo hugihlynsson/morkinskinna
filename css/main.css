@@ -138,6 +138,15 @@ svg {
 
 }
 
+.form__part {
+  height: 0px;
+  width: 0px;
+}
+.form__part__svg {
+  width: auto;
+  height: auto;
+}
+
 .timeline__section {
   padding: 1em 0;
 }
@@ -158,6 +167,8 @@ svg {
 
 
 .event {
+  position: relative;
+  z-index: 1; /* Make sure the events are abow the parallaxing parts */
   margin: 1em 0;
 }
 
@@ -201,5 +212,12 @@ svg {
     max-width: 1000px;
     margin: 3em auto -1em;
     padding-right: 300px;
+  }
+
+  .form__part--august {
+    margin-left: 200px;
+  }
+  .form__part--september {
+    margin-left: -100px;
   }
 }
