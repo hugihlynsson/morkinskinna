@@ -81,7 +81,6 @@ body {
   font-size: 16px;
   line-height: 1.3;
   font-family: sans-serif;
-  padding: 1.5em;
   border: 0.5em solid transparent;
   border-top-color: blue;
   border-right-color: #00FFFD;
@@ -105,6 +104,10 @@ body::before {
 body::after {
   right: -0.5em;
   background: #00FFFD;
+}
+
+svg {
+  width: 100%;
 }
 
 
@@ -135,13 +138,16 @@ body::after {
 
 }
 
+.timeline__section {
+  padding: 1em;
+}
+.timeline__section--dark {
+  background: #000;
+}
+
 .timeline__date {
-  text-transform: uppercase;
-  font-weight: 700;
-  font-size: 1.5em;
-  letter-spacing: 0.05em;
-  margin-top: 1.5em;
-  margin-bottom: 0.5px;
+  margin-top: 4em;
+  margin-bottom: 0.5em;
 }
 
 .timeline__month {
@@ -188,5 +194,11 @@ body::after {
 @media only screen and (min-width: 40em) {
   body {
     font-size: 20px;
+  }
+
+  .timeline__date {
+    max-width: 1000px;
+    margin: 3em auto -1em;
+    padding-right: 300px;
   }
 }
