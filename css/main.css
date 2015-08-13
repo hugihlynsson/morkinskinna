@@ -209,8 +209,8 @@ svg {
   }
 
   .timeline__date {
-    max-width: 1000px;
-    margin: 3em auto -1em;
+    max-width: 1100px;
+    margin: 3em auto -3em;
     padding-right: 300px;
   }
 
@@ -220,4 +220,11 @@ svg {
   .form__part--september {
     margin-left: -100px;
   }
+  .form__part--november1 {
+    margin-left: 400px;
+  }
+  .form__part--november2 {
+    margin-left: 400px;
+  }
+
 }
