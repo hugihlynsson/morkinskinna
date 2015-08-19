@@ -213,6 +213,21 @@ svg {
   margin: 0.5em 0;
 }
 
+.event__details__video {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
+  margin: 0.5em 0;
+}
+.event__details__video iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
 
 @media only screen and (min-width: 40em) {
   body {
@@ -226,6 +241,11 @@ svg {
   }
 
   .event__details__image {
+    margin-left: 20%;
+  }
+
+  .event__details__video {
+    width: 100%;
     margin-left: 20%;
   }
 
