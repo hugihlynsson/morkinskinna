@@ -111,12 +111,12 @@ svg {
 }
 
 
-.header__item {
-  font-size: 2em;
+.pageHeader {
+  font-size: 2.3em;
   text-align: center;
 }
 
-.header__link {
+.pageHeader__item {
   display: inline-block;
   border-bottom: 0.2em solid #F4FF00;
   text-align: center;
@@ -127,10 +127,6 @@ svg {
   text-decoration: none;
   text-transform: uppercase;
   transition: all 0.2s;
-}
-.header__link:hover {
-  color: #F4FF00;
-  -webkit-text-fill-color: black; /* Will override color (regardless of order) */
 }
 
 
