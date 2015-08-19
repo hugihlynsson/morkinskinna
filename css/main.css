@@ -148,6 +148,7 @@ svg {
 }
 .timeline__section--dark {
   background: #000;
+  color: #FFF;
 }
 
 .timeline__date {
@@ -168,6 +169,9 @@ svg {
   margin: 1em 0;
 }
 
+.event__header {
+}
+
 .event__title {
   display: inline-block;
   font-size: 1.3em;
@@ -182,6 +186,7 @@ svg {
   transition: all 0.2s;
 }
 .event__title:hover {
+  cursor: pointer;
   color: black;
   -webkit-text-fill-color: #F4FF00; /* Will override color (regardless of order) */
 }
@@ -198,6 +203,15 @@ svg {
   display: none;
 }
 
+.event__text {
+  font-size: 0.9em;
+}
+
+.event__details__image {
+  max-width: 100%;
+  margin: 0.5em 0;
+}
+
 
 @media only screen and (min-width: 40em) {
   body {
@@ -208,6 +222,10 @@ svg {
     max-width: 1100px;
     margin: 3em auto -3em;
     padding-right: 300px;
+  }
+
+  .event__details__image {
+    margin-left: 20%;
   }
 
   .form__part--august {
