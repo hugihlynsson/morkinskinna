@@ -143,6 +143,10 @@ svg {
   width: auto;
   height: auto;
 }
+.form__part--worldclass {
+  margin-left: 200px;
+  width: 120px;
+}
 
 .timeline__section {
   padding: 1em 0;
@@ -260,6 +264,10 @@ svg {
   }
   .form__part--november2 {
     margin-left: 400px;
+  }
+  .form__part--worldclass {
+    margin-left: 500px;
+    width: 200px;
   }
 
 }

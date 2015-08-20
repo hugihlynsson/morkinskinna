@@ -34,6 +34,10 @@ var scroller = {
       element: $('.form__part--november2'),
       speedDivider: 2.1,
     },
+    {
+      element: $('.form__part--worldclass'),
+      speedDivider: 2.1,
+    },
   ],
 
   updateOffsets: function() {
