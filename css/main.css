@@ -143,6 +143,19 @@ svg {
   width: auto;
   height: auto;
 }
+.form__part--august {
+  margin-left: 100px;
+  width: 240px;
+}
+.form__part--oktober {
+  margin-left: -100px;
+  width: 60px;
+}
+.form__part--november1,
+.form__part--november2 {
+  margin-left: -60px;
+  width: 200px;
+}
 .form__part--worldclass {
   margin-left: 200px;
   width: 120px;
