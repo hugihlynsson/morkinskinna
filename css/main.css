@@ -110,7 +110,6 @@ svg {
   width: 100%;
 }
 
-
 .pageHeader {
   font-size: 2.3em;
   text-align: center;
@@ -143,6 +142,9 @@ svg {
   width: auto;
   height: auto;
 }
+img.form__part__svg {
+  width: 100%;
+}
 .form__part--august {
   margin-left: 100px;
   width: 240px;
@@ -159,6 +161,10 @@ svg {
 .form__part--worldclass {
   margin-left: 200px;
   width: 120px;
+}
+.form__part--worldclassAd {
+  width: 300px;
+  margin-left: 300px;
 }
 
 .timeline__section {
@@ -281,6 +287,10 @@ svg {
   .form__part--worldclass {
     margin-left: 500px;
     width: 200px;
+  }
+  .form__part--worldclassAd {
+    width: 300px;
+    margin-left: 500px;
   }
 
 }

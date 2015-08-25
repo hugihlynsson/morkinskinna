@@ -38,6 +38,10 @@ var scroller = {
       element: $('.form__part--worldclass'),
       speedDivider: 2.1,
     },
+    {
+      element: $('.form__part--worldclassAd'),
+      speedDivider: 3,
+    },
   ],
 
   updateOffsets: function() {
