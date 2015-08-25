@@ -42,6 +42,10 @@ var scroller = {
       element: $('.form__part--worldclassAd'),
       speedDivider: 3,
     },
+    {
+      element: $('.form__part--fabrikkan'),
+      speedDivider: 3,
+    },
   ],
 
   updateOffsets: function() {

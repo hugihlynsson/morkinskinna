@@ -166,6 +166,10 @@ img.form__part__svg {
   width: 300px;
   margin-left: 300px;
 }
+.form__part--fabrikkan {
+  width: 120px;
+  margin-left: 300px;
+}
 
 .timeline__section {
   padding: 1em 0;
@@ -291,6 +295,10 @@ img.form__part__svg {
   .form__part--worldclassAd {
     width: 300px;
     margin-left: 500px;
+  }
+  .form__part--fabrikkan {
+    width: 120px;
+    margin-left: -200px;
   }
 
 }
