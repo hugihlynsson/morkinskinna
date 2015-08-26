@@ -170,6 +170,10 @@ img.form__part__svg {
   width: 120px;
   margin-left: 300px;
 }
+.form__part--fabrikkan2 {
+  width: 120px;
+  margin-left: 350px;
+}
 
 .timeline__section {
   padding: 1em 0;
@@ -299,6 +303,10 @@ img.form__part__svg {
   .form__part--fabrikkan {
     width: 120px;
     margin-left: -200px;
+  }
+  .form__part--fabrikkan2 {
+    width: 120px;
+    margin-left: 400px;
   }
 
 }

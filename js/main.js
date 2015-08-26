@@ -46,6 +46,10 @@ var scroller = {
       element: $('.form__part--fabrikkan'),
       speedDivider: 3,
     },
+    {
+      element: $('.form__part--fabrikkan2'),
+      speedDivider: -3,
+    },
   ],
 
   updateOffsets: function() {
