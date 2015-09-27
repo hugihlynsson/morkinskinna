@@ -131,7 +131,7 @@ svg {
 
 
 .timeline {
-
+  overflow-x: hidden;
 }
 
 .form__part {
