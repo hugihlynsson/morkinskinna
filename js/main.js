@@ -50,6 +50,10 @@ var scroller = {
       element: $('.form__part--fabrikkan2'),
       speedDivider: -3,
     },
+    {
+      element: $('.form__part--hadegisAd'),
+      speedDivider: 3,
+    },
   ],
 
   updateOffsets: function() {
