@@ -98,5 +98,8 @@ var scroller = {
 
 scroller.initialize();
 
-
-console.log('script loaded');
+$(window).load(function() {
+  $('html, body').animate({
+    scrollTop: $('[data-month="' + (new Date).getMonth() + '"]').offset().top
+  }, 600);
+});
