@@ -129,8 +129,13 @@ svg {
   transition: all 0.2s;
 }
 
+.timeline__wrap {
+  height: auto;
+  overflow-y: visible;
+}
 
-.timeline {
+.timeline {
+  width: 100%;
   overflow-x: hidden;
 }
 
